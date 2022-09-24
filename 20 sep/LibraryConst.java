@@ -10,14 +10,6 @@ class Books
 	private String bookName;
 	private String authorName;
 	
-	// method insert Book
-	
-/*	void insertBook(String bookName,String authorName){
-		
-		this.bookName = bookName;
-		this.authorName = authorName;
-	} */
-	
 	
 	//Parameterized Constructor
 	Books(String bookName,String authorName)
@@ -51,18 +43,19 @@ class Books
 		public static void main(String...args)
 		
 		{
-			// create library object
+			//create book1 object
 			Books book1 = new Books("Debjan","Bibhutibhushan Bandyopadhyay");
-			// book1.insertBook("Debjan","Bibhutibhushan Bandyopadhyay"); // implicit
-			
+		                                                                  // implicit method
+			//create book2 object
 			Books book2 = new Books("The Alchemist","Paolo Choleho");
-			//book2.insertBook("The Alchemist","Paolo Choleho");
 			
+			//create book3 object
 			Books book3 = new Books("Harry Potter","J. K. Rowling");
-			 
+			
+			 //create book4 object
 			Books book4 = new Books(book3);
 			
-			 
+			 //dispaling the books calling displayBooks method
 		    book1.displayBooks();
 			book2.displayBooks();
 			book3.displayBooks();

@@ -36,7 +36,7 @@ class Books
 		
 		{
 			
-			Books book[] = new Books[5]; // creates an array of movies
+			Books book[] = new Books[5]; // creates an array of books
 			//creating objects
 			book[0] = new Books("Debjan","Bibhutibhushan Bandyopadhyay");
 			book[1] = new Books("The Alchemist","Paolo Choleho");
